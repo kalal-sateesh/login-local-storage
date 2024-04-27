@@ -67,6 +67,7 @@ const Login = () => {
           placeholder="Please enter password"
           onChange={(e) => setPassword(e.target.value)}
           className={styles.input}
+          type="password"
         />
         <div style={{ height: "20px" }}>
           {errorMsgpassword && (
